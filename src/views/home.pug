@@ -9,5 +9,11 @@ html(lang="en")
         header
             h1 Zoom
         main
-            h2 Welcome to Zoom
+            form#nick
+                input(type="text", placeholder="choose a nickname", requried)
+                button Save
+            ul
+            form#message
+                input(type="text", placeholder="write a msg", requried)
+                button Send
         script(src="/public/js/app.js")
